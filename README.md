@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Portofolio</b></h3>
 
 </div>
 
@@ -60,11 +60,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Portofilo] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> This is my portofilo for mobile version.
 
-**[your_project__name]** is a...
+**[Portofilo]** is a project that shows how the website is shown on mobile.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -72,36 +72,14 @@ After you're finished please remove all the comments and instructions!
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[home-page-profile]**
+- **[mob-version]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -205,17 +183,11 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Amanuel Belete**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@amanuelbelete95](https://github.com/amanuelbelete95)
+- Twitter: [@AmanuelBelete11](https://twitter.com/AmanuelBelete11)
+- LinkedIn: [Amanuel Belete](https://www.linkedin.com/in/amanuel-belete-292994194/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -225,7 +197,7 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
+- [ ] **[desktop-version]**
 - [ ] **[new_feature_2]**
 - [ ] **[new_feature_3]**
 
@@ -257,7 +229,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank my coding partner and my friends...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
