@@ -2,17 +2,7 @@
   body {
     margin: 0;
     padding: 0;
-    /* background-color: black; */
-    /* max-height: 1000px; */
   }
-
-  /* .container {
-
-  height: 6968px;
-   width: 375px;
-  left: 12142px;
-  top: -3480px; 
-} */
 
   nav {
     display: flex;
@@ -51,7 +41,6 @@
   .main-content {
     background-image: url("homebg.svg");
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     background-position: bottom right;
     background-color: #1c1a19;
     margin-top: -47px;
