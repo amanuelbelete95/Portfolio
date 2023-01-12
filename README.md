@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portofolio</b></h3>
+  <h3><b>Microverse README Template</b></h3>
 
 </div>
 
@@ -83,6 +83,10 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+- [Live Demo Link](https://yourdeployedapplicationlink.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -90,8 +94,6 @@ After you're finished please remove all the comments and instructions!
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
-
-In order to run this project you need:
 
 <!--
 Example command:
@@ -103,7 +105,7 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder:
+git Clone https://github.com/amanuelbelete95/Portfolio
 
 <!--
 Example commands:
@@ -116,8 +118,6 @@ Example commands:
 
 ### Install
 
-Install this project with:
-
 <!--
 Example command:
 
@@ -129,8 +129,6 @@ Example command:
 
 ### Usage
 
-To run the project, execute the following command:
-
 <!--
 Example command:
 
@@ -141,8 +139,6 @@ Example command:
 
 ### Run tests
 
-To run tests, run the following command:
-
 <!--
 Example command:
 
@@ -152,8 +148,6 @@ Example command:
 --->
 
 ### Deployment
-
-You can deploy this project using:
 
 <!--
 Example:
@@ -169,9 +163,7 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
-👤 **Amanuel Belete**
+👤 **Author1**
 
 - GitHub: [@amanuelbelete95](https://github.com/amanuelbelete95)
 - Twitter: [@AmanuelBelete11](https://twitter.com/AmanuelBelete11)
@@ -205,27 +197,19 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank my coding partner and my friends...
+I would like to thank my coding partner and my coding reviewer for their supporting suggestions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **[Question_1]**
 
