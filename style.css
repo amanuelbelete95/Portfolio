@@ -83,12 +83,15 @@
     order: 2;
     flex-grow: 0;
   }
+  ul {
+    list-style-type: none;
+  }
 
   .social-icons {
     display: flex;
     justify-content: flex-start;
     height: 20px;
-    list-style-type: none;
+    /* list-style-type: none; */
     text-decoration: none;
     gap: 20px;
     margin-left: -20px;
@@ -98,5 +101,41 @@
   li a {
     color: white;
     font-size: 25px;
+  }
+
+  .work-section {
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+  }
+
+  .work-title {
+    margin-top: 120px;
+    font-family: "Crete Round", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    padding: 30px 0;
+    line-height: 52px;
+    border: 0.5px solid black;
+  }
+
+  .story-title {
+    font-style: "Crete Round", serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 32px;
+  }
+
+  .story-info {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .my-skills {
+    display: flex-start;
+    justify-content: space-between;
   }
 }
