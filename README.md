@@ -27,10 +27,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Portofolio</b></h3>
 
 </div>
 
@@ -60,11 +57,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portofilo] <a name="about-project"></a>
+# 📖 Portofilo <a name="about-project"></a>
 
 > This is my portofilo for mobile version.
 
-**[Portofilo]** is a project that shows how the website is shown on mobile.
+**Portofilo** is a project that shows how the website is shown on mobile.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -74,8 +71,8 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **[home-page-profile]**
-- **[mob-version]**
+- **home-page-profile**
+- **mob-version**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,7 +80,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://github.com/amanuelbelete95/Portfolio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -177,9 +174,7 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[desktop-version]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **desktop-version**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -208,16 +203,6 @@ I would like to thank my coding partner and my coding reviewer for their support
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
