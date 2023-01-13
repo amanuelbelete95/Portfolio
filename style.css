@@ -91,7 +91,6 @@
     display: flex;
     justify-content: flex-start;
     height: 20px;
-    /* list-style-type: none; */
     text-decoration: none;
     gap: 20px;
     margin-left: -20px;
@@ -108,18 +107,21 @@
     justify-content: flex-start;
     align-items: center;
     margin-left: 24px;
-    /* height: auto; */
   }
 
   .work-title {
-    margin-top: 120px;
+    margin-top: 60px;
     font-family: "Crete Round", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     padding: 30px 0;
     line-height: 52px;
-    border: none;
+    margin-right: 24px;
+    border-bottom: 1px solid #212121;
+  }
+  .work-image {
+    width: 95%;
   }
 
   .story-title {
@@ -133,6 +135,8 @@
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
+    margin-top: 0px;
+    margin-right: 24px;
     font-size: 16px;
     line-height: 24px;
     color: #091e42;
@@ -162,13 +166,15 @@
     line-height: 24px;
     color: #ffffff;
     background: #ff6b00;
-    padding: 5px;
+    padding: 10px 5px;
     border: none;
   }
 
-  .card-container {
+  .cards-container {
     display: grid;
-    margin: 24px;
+    grid-template-columns: auto;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 
   .cards-content {
@@ -199,12 +205,13 @@
     line-height: 24px;
     color: #fff;
   }
-
+  .cards-list {
+    display: flex;
+    gap: 40px;
+    margin-left: -20px;
+  }
   .cards-list li {
-    display: inline-flex;
-    justify-content: space-between;
-    gap: 10px;
-    padding: 5px;
+    padding: 10px;
     color: #ffffff;
     background: rgba(255, 255, 255, 0.24);
   }
@@ -212,6 +219,7 @@
   .pro-btn {
     background: #ff6b00;
     padding: 5px;
+    border: none;
     font-family: Inter;
     font-size: 17px;
     font-weight: 700;
@@ -220,5 +228,73 @@
     text-align: center;
     color: #fff;
     width: 100%;
+  }
+  .about-lang-cont {
+    background-color: #1c1a19;
+  }
+  .about-section {
+    background-image: url("./Images/aboutbg.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    padding-bottom: 60px;
+    margin-left: 24px;
+    /* border-bottom: 2px solid blue; */
+  }
+
+  .hori {
+    /* border: 1px solid red; */
+    border: 1px solid #ffffff;
+    margin: 5px 24px;
+  }
+
+  .about-heading {
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 88px;
+    color: #ff6b00;
+  }
+
+  .about-info {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 24px;
+    line-height: 24px;
+    color: #f4f5f7;
+  }
+
+  .about-btn {
+    font-family: "Inter";
+    font-style: normal;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    background-color: #ff6b00;
+    padding: 10px;
+    margin-left: 36px;
+    margin-bottom: 200px;
+  }
+
+  .lang-section {
+    margin-top: -20px;
+  }
+  .lang {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .lang h2 {
+    margin-left: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #ffffff;
+    margin-left: 5px;
   }
 }
