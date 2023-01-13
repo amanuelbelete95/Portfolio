@@ -102,11 +102,13 @@
     color: white;
     font-size: 25px;
   }
-
+  /* Work-section */
   .work-section {
     display: flex;
+    justify-content: flex-start;
     align-items: center;
     margin-left: 24px;
+    /* height: auto; */
   }
 
   .work-title {
@@ -117,7 +119,7 @@
     font-size: 40px;
     padding: 30px 0;
     line-height: 52px;
-    border: 0.5px solid black;
+    border: none;
   }
 
   .story-title {
@@ -130,12 +132,93 @@
   .story-info {
     font-family: "Inter", sans-serif;
     font-style: normal;
-    font-weight: 550;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    color: #091e42;
   }
+
   .my-skills {
-    display: flex-start;
+    display: flex;
+    gap: 35px;
+    margin-left: -40px;
+  }
+
+  .my-skills li {
+    border: 1px solid #8993a4;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 5px;
+  }
+
+  .my-btn {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #ffffff;
+    background: #ff6b00;
+    padding: 5px;
+    border: none;
+  }
+
+  .card-container {
+    display: grid;
+    margin: 24px;
+  }
+
+  .cards-content {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./Images/bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* align-items: center; */
+  }
+  .cards-heading {
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    padding-top: 84px;
+    font-size: 32px;
+    margin-left: 16px;
+    line-height: 44px;
+    color: #ffffff;
+  }
+  .cards-info {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    line-height: 24px;
+    color: #fff;
+  }
+
+  .cards-list li {
+    display: inline-flex;
     justify-content: space-between;
+    gap: 10px;
+    padding: 5px;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.24);
+  }
+
+  .pro-btn {
+    background: #ff6b00;
+    padding: 5px;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #fff;
+    width: 100%;
   }
 }
