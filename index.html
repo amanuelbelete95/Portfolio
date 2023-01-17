@@ -216,16 +216,29 @@
     </div>
     <div class="contact-section">
       <p class="para-info">
-        I'm always interested in hearing about new projects, so if you'd like to
+        I'm always <br />interested in hearing<br />
+        about new projects,<br />
+        so if you'd like to<br />
         chat please get in touch.
       </p>
-      <form>
+      <form action="https://formspree.io/f/{form_id}">
         <ul class="list-container">
           <li>
-            <input type="text" placeholder="Full name" class="user-info" />
+            <input
+              type="text"
+              placeholder="Full name"
+              class="user-info"
+              maxlength="10"
+              required
+            />
           </li>
           <li>
-            <input type="email" placeholder="Email address" class="user-info" />
+            <input
+              type="email"
+              placeholder="Email address"
+              class="user-info"
+              required
+            />
           </li>
           <li>
             <textarea
@@ -234,6 +247,8 @@
               cols="30"
               rows="10"
               placeholder="Enter text here"
+              maxlength="500"
+              required
             ></textarea>
           </li>
           <div class="btn-class">
