@@ -220,15 +220,13 @@
         chat please get in touch.
       </p>
       <form>
-        <ul>
+        <ul class="list-container">
           <li>
             <input type="text" placeholder="Full name" class="user-info" />
           </li>
-          <hr class="hr-input" />
           <li>
             <input type="email" placeholder="Email address" class="user-info" />
           </li>
-          <hr class="hr-input"/>
           <li>
             <textarea
               name=""
@@ -238,8 +236,12 @@
               placeholder="Enter text here"
             ></textarea>
           </li>
-          <button class="submit" type="submit">Get in touch</button>
+          <div class="btn-class">
+            <button class="submit" type="submit">Get in touch</button>
+          </div>
+        </ul>
       </form>
+      <hr class="my-line" />
       <ul class="my-contacts">
         <li class="cont-list">
           <a href="#"><i class="fa-brands fa-github"></i></a>
@@ -260,7 +262,7 @@
           <a href="#"><i class="fa-solid fa-m"></i></a>
         </li>
       </ul>
-      <hr class="border">
+      <hr class="border" />
     </div>
   </body>
 </html>
