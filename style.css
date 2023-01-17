@@ -93,14 +93,15 @@
     justify-content: flex-start;
     height: 20px;
     text-decoration: none;
-    gap: 20px;
+    gap: 30px;
     margin-left: -20px;
     padding-bottom: 130px;
   }
 
-  li a {
+  .social a {
     color: white;
     font-size: 25px;
+    margin-left: -15px;
   }
 
   .work-section {
@@ -322,5 +323,117 @@
     line-height: 43px;
     letter-spacing: 0;
     text-align: center;
+  }
+
+  .contact-section {
+    padding-top: 80px;
+  }
+
+  .para-info {
+    width: 327px;
+    height: 216px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #172b4d;
+    margin: 0 0 0 24px;
+  }
+
+  form {
+    margin-top: 150px;
+    margin-left: -50px;
+  }
+
+  .list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  input,
+  textarea {
+    border: none;
+  }
+
+  .hr-input {
+    background: #dbd8d7;
+    margin: 14px 20px;
+  }
+
+  .user-info {
+    width: 300px;
+    padding: 14px;
+    margin-left: 40px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    border-bottom: 1px solid #dbd8d7;
+  }
+
+  textarea {
+    height: 114px;
+    width: 327px;
+    margin-left: 40px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    background: #fbf8f7;
+    padding: 12px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  input:focus,
+  textarea:focus {
+    outline: none;
+  }
+
+  .btn-class {
+    display: flex;
+    justify-content: center;
+  }
+
+  .submit {
+    color: #fff;
+    background: #ff6b00;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    padding: 12px;
+  }
+
+  .my-line {
+    margin-top: 124px;
+  }
+
+  .my-contacts {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .cont-list a {
+    color: #091e42;
+  }
+
+  .cont-list > i {
+    color: gray;
+  }
+
+  .border {
+    margin: 23px 8px 8px 205px;
+    background: #0d151e;
+    width: 100px;
+    height: 5px;
   }
 }

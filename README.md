@@ -166,13 +166,19 @@ Example:
 - Twitter: [@AmanuelBelete11](https://twitter.com/AmanuelBelete11)
 - LinkedIn: [Amanuel Belete](https://www.linkedin.com/in/amanuel-belete-292994194/)
 
+👤 **Author2**
+
+- Github : [@ayaderaghul](https://github.com/ayaderaghul)
+
+👤 **Author3**
+
+-Github : [@Rishi-Mishra0704](https://github.com/Rishi-Mishra0704)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **desktop-version**
 
@@ -198,7 +204,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my coding partner and my coding reviewer for their supporting suggestions.
+I would like to thank my coding partners (pair-programming) and my coding reviewer for their supporting suggestions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
