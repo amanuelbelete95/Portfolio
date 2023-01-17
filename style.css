@@ -389,4 +389,13 @@
     background: #505f79;
     color: #091e42;
   }
+  .border {
+    margin-left: 80px;
+
+    margin-top: 23px;
+    margin-bottom: 8px;
+    background: #0d151e;
+    width: 134px;
+    height: 5px;
+  }
 }
