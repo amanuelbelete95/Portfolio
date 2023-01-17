@@ -326,7 +326,6 @@
   }
 
   .contact-section {
-    margin: 0 24px;
     padding-top: 80px;
   }
 
@@ -340,7 +339,7 @@
     line-height: 44px;
     text-align: center;
     color: #172b4d;
-    margin-left: 50px;
+    margin: 0 0 0 24px;
   }
 
   form {
@@ -432,7 +431,7 @@
   }
 
   .border {
-    margin: 23px 8px 8px 180px;
+    margin: 23px 8px 8px 205px;
     background: #0d151e;
     width: 100px;
     height: 5px;
