@@ -101,6 +101,7 @@
   li a {
     color: white;
     font-size: 25px;
+    margin: 10px;
   }
 
   .work-section {
@@ -322,5 +323,61 @@
     line-height: 43px;
     letter-spacing: 0;
     text-align: center;
+  }
+
+  .contact-section {
+    margin: 0 24px;
+    padding-top: 80px;
+  }
+
+  .para-info {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0 30px;
+  }
+
+  .hr-input {
+    background: #dbd8d7;
+    margin: 14px 20px;
+  }
+
+  input,
+  textarea {
+    width: 300px;
+    margin-left: 40px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  input:focus,
+  textarea:focus {
+    /* border-color: #000; */
+    outline: none;
+  }
+
+  .submit {
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+    background: #ff6b00;
+    border: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 24px;
+    padding: 10px 10px;
   }
 }
