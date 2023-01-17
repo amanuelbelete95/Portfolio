@@ -93,15 +93,16 @@
     justify-content: flex-start;
     height: 20px;
     text-decoration: none;
-    gap: 20px;
+    gap: 30px;
     margin-left: -20px;
     padding-bottom: 130px;
   }
 
-  li a {
+  .social a {
     color: white;
     font-size: 25px;
-    margin: 10px;
+    margin-left: -15px;
+    /* margin: 10px; */
   }
 
   .work-section {
@@ -364,18 +365,28 @@
   }
 
   .submit {
-    font-family: "Inter", sans-serif;
-    color: #ffffff;
+    color: #fff;
     background: #ff6b00;
     border: none;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
     letter-spacing: 0.03em;
     padding: 10px 10px;
-    margin-top: 36px;
-    margin-left: 134px;
-    margin-right: 134px;
+    margin: 36px 134px;
+  }
+
+  .my-contacts {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+  .cont-list a {
+    background: #505f79;
+    color: #091e42;
   }
 }
