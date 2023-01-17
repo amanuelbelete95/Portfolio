@@ -332,31 +332,16 @@
   }
 
   .para-info {
-    /* Primary Text */
-
     width: 327px;
     height: 216px;
-
     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
-
-    /* or 138% */
     text-align: center;
-
-    /* Neutrals/N800 */
     color: #172b4d;
-
-    /* 
-    font-family: "Inter", sans-serif;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 44px;
-    letter-spacing: 0em;
-    text-align: center;
-    padding: 0 30px; */
+    margin-left: 50px;
   }
 
   form {
@@ -410,7 +395,6 @@
 
   input:focus,
   textarea:focus {
-    /* border-color: #000; */
     outline: none;
   }
 
@@ -442,14 +426,7 @@
   }
 
   .cont-list a {
-    /* background: #505f79; */
     color: #091e42;
-  }
-
-  .border {
-    margin-left: 80px;
-    margin-top: 23px;
-    margin-bottom: 8px;
   }
 
   .cont-list > i {
@@ -457,9 +434,9 @@
   }
 
   .border {
-    margin: 23px 8px 90px 150px;
+    margin: 23px 8px 8px 180px;
     background: #0d151e;
-    width: 134px;
+    width: 100px;
     height: 5px;
   }
 }
