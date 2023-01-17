@@ -221,20 +221,22 @@
         so if you'd like to<br />
         chat please get in touch.
       </p>
-      <form action="https://formspree.io/f/{form_id}">
+      <form action="https://formspree.io/f/mbjelylz" method="post" id="form1">
         <ul class="list-container">
           <li>
             <input
               type="text"
+              name="first-name"
               placeholder="Full name"
               class="user-info"
-              maxlength="10"
+              maxlength="30"
               required
             />
           </li>
           <li>
             <input
               type="email"
+              name="email"
               placeholder="Email address"
               class="user-info"
               required
@@ -242,8 +244,8 @@
           </li>
           <li>
             <textarea
-              name=""
-              id=""
+              name="text"
+              id="text"
               cols="30"
               rows="10"
               placeholder="Enter text here"
