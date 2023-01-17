@@ -334,23 +334,22 @@
   .para-info {
     /* Primary Text */
 
-  width: 327px;
-  height: 216px;
+    width: 327px;
+    height: 216px;
 
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
 
-  /* or 138% */
-  text-align: center;
+    /* or 138% */
+    text-align: center;
 
-  /* Neutrals/N800 */
-  color: #172B4D;
+    /* Neutrals/N800 */
+    color: #172b4d;
 
-
-/* 
+    /* 
     font-family: "Inter", sans-serif;
     font-size: 32px;
     font-weight: 700;
@@ -365,7 +364,8 @@
     margin-left: -50px;
   }
 
-  input, textarea {
+  input,
+  textarea {
     border: none;
   }
 
@@ -407,7 +407,6 @@
     width: 50%;
     margin-left: 100px;
   }
-
   .my-contacts {
     display: flex;
     gap: 10px;
@@ -425,10 +424,7 @@
     color: gray;
   }
   .border {
-    margin-left: 80px;
-
-    margin-top: 23px;
-    margin-bottom: 8px;
+    margin:23px 8px 90px 110px; 
     background: #0d151e;
     width: 134px;
     height: 5px;
