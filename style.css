@@ -445,7 +445,7 @@ textarea:focus {
   height: 5px;
 }
 
-.heading-desk {
+.cards-desktop {
   display: none;
 }
 /* } */
@@ -453,6 +453,9 @@ textarea:focus {
 @media screen and (min-width: 768px) {
   * {
     box-sizing: border-box;
+  }
+  .cards-content {
+    display: none;
   }
 
   nav {
@@ -538,15 +541,82 @@ textarea:focus {
   .my-skills {
     display: inline-flex;
   }
-
-  .cards-container {
-    display: inline-grid;
-    width: 100vw;
-    grid-template-columns: 360px 360px 360px;
-    grid-template-rows: 430px 430px 430px;
+  .cards {
     border: 2px solid green;
-    row-gap: 37px;
-    column-gap: 24px;
-    margin: 24px 80px 130px 80px;
+  }
+
+  .cards-desktop {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 24px;
+    margin-left: 74px;
+    margin-right: 74px;
+    gap: 20px 10px;
+  }
+
+  .heading-desk {
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    color: #fff;
+    font-weight: 400;
+    font-size: 32px;
+  }
+
+  .cards p {
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+  }
+
+  .desktop1 {
+    display: flex;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("./cardsimage/bg1.png");
+  }
+
+  .btn-desk {
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 700px;
+    background: #f55800;
+    color: #fff;
+    padding: 10px;
+    border: none;
+  }
+
+  .desktop2 {
+    background-image: url("./cardsimage/bg2.png");
+    background-repeat: no-repeat;
+    padding: 80px 0 20px 5px;
+  }
+
+  .desktop3 {
+    background-image: url("./cardsimage/bg3.png");
+    background-repeat: no-repeat;
+    padding: 120px 0 20px 5px;
+  }
+
+  .desktop4 {
+    background-image: url("./cardsimage/bg4.png");
+    background-repeat: no-repeat;
+    padding: 80px 0 20px 5px;
+  }
+
+  .desktop5 {
+    background-image: url("./cardsimage/bg2.png");
+    background-repeat: no-repeat;
+    padding: 80px 0 20px 5px;
+  }
+
+  .desktop6 {
+    background-image: url("./cardsimage/bg3.png");
+    background-repeat: no-repeat;
+    padding: 120px 0 20px 5px;
   }
 }
