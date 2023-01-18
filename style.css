@@ -541,9 +541,6 @@ textarea:focus {
   .my-skills {
     display: inline-flex;
   }
-  .cards {
-    border: 2px solid green;
-  }
 
   .cards-desktop {
     display: grid;
@@ -618,5 +615,30 @@ textarea:focus {
     background-image: url("./cardsimage/bg3.png");
     background-repeat: no-repeat;
     padding: 120px 0 20px 5px;
+  }
+
+  .cards ul {
+    display: flex;
+    gap: 5px;
+  }
+  .cards ul > li {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.24);
+    padding: 10px 12px;
+  }
+  .about-section {
+    background-image: url("./cardsimage/aboutFrame.png");
+    background-repeat: no-repeat;
+    background-position: 740px 68px;
+  }
+  .about-heading {
+    margin-top: -20px;
+  }
+  .about-info {
+    max-width: 400px;
+  }
+  .lang-section {
+    display: flex;
+    justify-content: space-around;
   }
 }
