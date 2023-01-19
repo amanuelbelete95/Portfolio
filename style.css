@@ -1,8 +1,8 @@
-/* @media only screen and (max-width: 600px) { */
 body {
   margin: 0;
   padding: 0;
 }
+
 .container {
   width: 100vw;
 }
@@ -56,7 +56,6 @@ nav {
 }
 
 .heading1 {
-  /* width: 327px; */
   height: 124px;
   padding-top: 120px;
   color: #ff6b00;
@@ -78,7 +77,6 @@ nav {
 }
 
 .myinfo {
-  /* width: 327px; */
   height: 123px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -128,7 +126,10 @@ ul {
   padding: 30px 0;
   line-height: 52px;
   margin-right: 24px;
-  border-bottom: 1px solid #212121;
+}
+
+.desktop-hr {
+  margin: 20px 0 80px;
 }
 
 .work-image {
@@ -448,15 +449,16 @@ textarea:focus {
 .cards-desktop {
   display: none;
 }
+
 .desktop-contact {
   display: none;
 }
-/* } */
 
 @media screen and (min-width: 768px) {
   * {
     box-sizing: border-box;
   }
+
   .cards-content {
     display: none;
   }
@@ -464,6 +466,14 @@ textarea:focus {
   nav {
     display: flex;
     justify-content: space-around;
+    justify-items: center;
+    background: #3c3a39;
+    height: 120px;
+    padding-bottom: 60px;
+  }
+
+  .logo {
+    margin-left: -100px;
   }
 
   .humburger {
@@ -473,8 +483,11 @@ textarea:focus {
   .dec-list {
     display: flex;
     justify-content: space-between;
-    /* margin-right: 70px; */
     gap: 20px;
+  }
+
+  .social-icons a {
+    font-size: 16px;
   }
 
   .dec-list li a {
@@ -493,10 +506,13 @@ textarea:focus {
     background-position: top right;
     background-color: #1c1a19;
   }
+
   .myinfo {
-    margin-right: 500px;
+    margin-right: 560px;
     size: 20px;
+    padding-right: 200px;
   }
+
   .div1 {
     border: 2px;
     margin-bottom: 30px;
@@ -522,16 +538,27 @@ textarea:focus {
     flex-direction: column;
   }
 
-  .social-icons a {
-    font-size: 16px;
+  .desktop-hr {
+    width: 700px;
+    float: inline-end;
+    margin-left: 400px;
+    margin-top: -85px;
+  }
+
+  .work-title {
+    margin-top: 50px;
+    max-width: 350px;
+    color: #091e42;
   }
 
   .story-title {
     margin-top: 100px;
   }
+
   .story-info {
     margin-right: 140px;
   }
+
   .work-image {
     height: 300px;
     width: 400px;
@@ -567,12 +594,12 @@ textarea:focus {
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0em;
     text-align: left;
     color: #fff;
   }
 
   .desktop1 {
+    border: 0.1px solid #262626;
     display: flex;
     background-repeat: no-repeat;
     flex-direction: column;
@@ -624,22 +651,27 @@ textarea:focus {
     display: flex;
     gap: 5px;
   }
+
   .cards ul > li {
     color: #fff;
     background: rgba(255, 255, 255, 0.24);
     padding: 10px 12px;
   }
+
   .about-section {
     background-image: url("./cardsimage/aboutFrame.png");
     background-repeat: no-repeat;
     background-position: 740px 68px;
   }
+
   .about-heading {
     margin-top: -20px;
   }
+
   .about-info {
     max-width: 400px;
   }
+
   .lang-section {
     display: flex;
     justify-content: space-around;
@@ -657,9 +689,12 @@ textarea:focus {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: -80px;
   }
+
   textarea {
     width: 600px;
+    text-align: left;
   }
 
   .btn-class {
