@@ -448,6 +448,9 @@ textarea:focus {
 .cards-desktop {
   display: none;
 }
+.desktop-contact {
+  display: none;
+}
 /* } */
 
 @media screen and (min-width: 768px) {
@@ -640,5 +643,26 @@ textarea:focus {
   .lang-section {
     display: flex;
     justify-content: space-around;
+  }
+
+  .border {
+    display: none;
+  }
+
+  .mobile-contact {
+    display: none;
+  }
+
+  .desktop-contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  textarea {
+    width: 600px;
+  }
+
+  .btn-class {
+    margin-left: -474px;
   }
 }
