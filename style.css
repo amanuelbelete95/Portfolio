@@ -560,9 +560,9 @@ textarea:focus {
   }
 
   .work-image {
-    height: 300px;
-    width: 400px;
-    margin-top: 80px;
+    height: 396px;
+    width: 567px;
+    margin-top: 26px;
     float: left;
     margin-right: 24px;
     margin-left: 50px;
@@ -570,6 +570,7 @@ textarea:focus {
 
   .my-skills {
     display: inline-flex;
+    gap: 12px;
   }
 
   .cards-desktop {
@@ -599,12 +600,15 @@ textarea:focus {
   }
 
   .desktop1 {
-    border: 0.1px solid #262626;
-    display: flex;
-    background-repeat: no-repeat;
+    display: inline-flex;
     flex-direction: column;
     justify-content: flex-end;
     background-image: url("cardsimage/bg1.png");
+    background-repeat: no-repeat;
+  }
+
+  .desktop1:hover {
+    border: 0.1px solid #262626;
   }
 
   .btn-desk {
