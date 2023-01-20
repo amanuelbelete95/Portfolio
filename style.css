@@ -676,6 +676,14 @@ textarea:focus {
     max-width: 400px;
   }
 
+  .about-btn:hover {
+    opacity: 0.7;
+  }
+
+  .about-btn:active {
+    opacity: 0.3;
+  }
+
   .lang-section {
     display: flex;
     justify-content: space-around;
