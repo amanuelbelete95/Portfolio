@@ -51,7 +51,6 @@ nav {
   background-position: bottom right;
   background-color: #1c1a19;
   margin-top: -47px;
-  padding-left: 24px;
   padding-right: 24px;
 }
 
@@ -77,7 +76,6 @@ nav {
 }
 
 .myinfo {
-  height: 123px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -86,7 +84,6 @@ nav {
   color: #fff;
   flex: none;
   order: 2;
-  flex-grow: 0;
 }
 
 ul {
@@ -99,7 +96,6 @@ ul {
   height: 20px;
   text-decoration: none;
   gap: 30px;
-  margin-left: -20px;
   padding-bottom: 130px;
 }
 
@@ -538,6 +534,12 @@ textarea:focus {
     flex-direction: column;
   }
 
+  .cards:hover {
+    opacity: 0.7;
+    box-shadow: 5px 5px 5px black;
+    transition: 500ms;
+  }
+
   .desktop-hr {
     width: 700px;
     float: inline-end;
@@ -674,6 +676,14 @@ textarea:focus {
 
   .about-info {
     max-width: 400px;
+  }
+
+  .about-btn:hover {
+    opacity: 0.7;
+  }
+
+  .about-btn:active {
+    opacity: 0.3;
   }
 
   .lang-section {
