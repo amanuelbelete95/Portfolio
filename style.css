@@ -26,13 +26,17 @@ body {
 .menu-bar .close-btn {
   align-self: flex-end;
   margin-right: 20px;
+  background: none;
+  color: #67798e;
+  border: none;
+  font-size: 25px;
 }
 
 .menu-bar .menu-mobile {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding-left: 28px;
+  margin-left: 50px;
 }
 
 .menu-mobile a {
@@ -41,6 +45,7 @@ body {
   font-size: 32px;
   line-height: 44px;
   font-weight: 600;
+  padding-left: 35px;
 }
 
 .menu-mobile .newline {
@@ -99,7 +104,7 @@ nav {
   background-position: bottom right;
   background-color: #1c1a19;
   margin-top: -56px;
-  padding-right: 0 24px;
+  padding: 0 24px;
 }
 
 .heading1 {
