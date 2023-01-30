@@ -13,11 +13,10 @@ body {
   z-index: 1;
   height: 100%;
   width: 100%;
-  backdrop-filter: blur(8px);
   padding: 10px 30px 0 0;
   background: #3c3a39;
   mix-blend-mode: normal;
-  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
 }
 
 .hidden-menu {
@@ -56,14 +55,6 @@ body {
   width: 100vw;
 }
 
-.sidebar {
-  position: fixed;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-}
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -74,19 +65,6 @@ nav {
 
 .dec-list {
   display: none;
-}
-
-.show-links {
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-right: 30px;
-}
-
-.show-links li a {
-  color: #fff;
-  text-decoration: none;
 }
 
 .logo {
