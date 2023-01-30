@@ -20,54 +20,68 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="menu-bar hidden-menu">
+      <button class="close-btn">
+              <i class="fa fa-times"></i>
+      </button>
+      <div class="menu-mobile">
+           <a href="#work">Portofolio</a>
+           <hr class="newline">
+            <a href="#about">About</a>
+            <hr class="newline">
+            <a href="#contact">Contact</a>
+            <hr class="newline">
+      </div>
+    </div>
     <div class="container">
-      <header>
-        <nav>
-          <a href="#" class="logo">Amanuel</a>
-          <a href="#" class="humburger"><i class="fa-solid fa-bars"></i></a>
-          <ul class="dec-list">
-            <li><a href="#">Portofolio</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li>
-              <a href="#"><i class="fa-solid fa-envelope"></i></a>
+        <header>
+          <nav>
+            <a href="#" class="logo">Amanuel</a>
+            <a href="#" class="humburger"><i class="fa-solid fa-bars"></i></a>
+            </button>
+            <ul class="dec-list">
+              <li class="menu"><a href="#">Portofolio</a></li>
+              <li class="menu"><a href="#">About</a></li>
+              <li class="menu"><a href="#">Contact</a></li>
+              <li>
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <section class="main-content">
+          <div class="div1">
+            <h1 class="heading1">Hey There.<br />I’m Amanuel</h1>
+            <h3 class="heading3">I am Software Engineer.</h3>
+            <p class="myinfo">
+              I can help you build a product , feature or website Look through
+              some of my work and experience! If you like what you see and have
+              a project you need coded, don’t hestiate to contact me.
+            </p>
+          </div>
+          <ul class="social-icons">
+            <li class="social">
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+            </li>
+            <li class="social">
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li class="social">
+              <a href="#"><i class="fa-brands fa-angellist"></i></a>
+            </li>
+            <li class="social">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li class="social">
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li class="social">
+              <a href="#"><i class="fa-solid fa-m"></i></a>
             </li>
           </ul>
-        </nav>
-      </header>
-      <section class="main-content">
-        <div class="div1">
-          <h1 class="heading1">Hey There.<br />I’m Amanuel</h1>
-          <h3 class="heading3">I am Software Engineer.</h3>
-          <p class="myinfo">
-            I can help you build a product , feature or website Look through
-            some of my work and experience! If you like what you see and have a
-            project you need coded, don’t hestiate to contact me.
-          </p>
-        </div>
-        <ul class="social-icons">
-          <li class="social">
-            <a href="#"><i class="fa-brands fa-github"></i></a>
-          </li>
-          <li class="social">
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-          </li>
-          <li class="social">
-            <a href="#"><i class="fa-brands fa-angellist"></i></a>
-          </li>
-          <li class="social">
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-          </li>
-          <li class="social">
-            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-          </li>
-          <li class="social">
-            <a href="#"><i class="fa-solid fa-m"></i></a>
-          </li>
-        </ul>
-      </section>
+        </section>
     </div>
-    <section class="work-section">
+    <section class="work-section" id="work">
       <div class="work">
         <h1 class="work-title">My Recent Works</h1>
         <hr class="desktop-hr" />
@@ -255,7 +269,7 @@
       </div>
     </div>
     <div class="about-lang-cont">
-      <div class="about-section">
+      <div class="about-section" id="about">
         <h1 class="about-heading">About me</h1>
         <p class="about-info">
           Hello I’m a software developer! I can help you build a product ,
@@ -305,7 +319,7 @@
         </div>
       </div>
     </div>
-    <div class="contact-section">
+    <div class="contact-section" id="contact">
       <div class="desktop-contact">
         <p class="para-info">
           I'm always <br />interested in hearing<br />
@@ -430,5 +444,6 @@
       </ul>
       <hr class="border" />
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
