@@ -111,7 +111,6 @@ nav {
 }
 
 .heading1 {
-  height: 124px;
   padding-top: 120px;
   color: #ff6b00;
   font-family: "Crete Round", serif;
@@ -148,9 +147,8 @@ ul {
 }
 
 .social-icons {
-  display: flex;
+  display: inline-flex;
   justify-content: flex-start;
-  height: 20px;
   text-decoration: none;
   gap: 30px;
   padding-bottom: 130px;
