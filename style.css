@@ -236,7 +236,6 @@ ul {
 .my-btn:hover {
   cursor: pointer;
 }
-/* pop up */
 
 .showpop {
   margin: 24px 0;
@@ -283,9 +282,7 @@ ul {
 }
 
 .img-pop {
-  /* display: flex; */
   margin-bottom: 24px;
-  /* border: 1px solid red; */
 }
 
 .img-pop img {
@@ -297,7 +294,6 @@ ul {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
   text-align: left;
 }
 
@@ -317,6 +313,7 @@ ul {
   padding: 10px 5px;
   border: none;
 }
+
 .pop-title-desktop {
   display: none;
 }
@@ -357,8 +354,6 @@ ul {
   opacity: 1;
   pointer-events: all;
 }
-
-/* pop */
 
 .cards-container {
   display: grid;
@@ -726,10 +721,6 @@ textarea:focus {
     transition: 500ms;
   }
 
-  .btn-desk:hover {
-    cursor: pointer;
-  }
-
   .desktop-hr {
     width: 700px;
     float: inline-end;
@@ -765,7 +756,10 @@ textarea:focus {
     gap: 12px;
   }
 
-  /* pop */
+  .pop-header {
+    padding: 2px;
+  }
+
   .pop-title-desktop {
     display: block;
     font-style: "Crete Round", serif;
@@ -773,6 +767,7 @@ textarea:focus {
     font-weight: 400px;
     font-size: 32px;
     color: #172b4d;
+    margin-left: -120px;
   }
 
   .pop-title-mobile {
@@ -790,7 +785,6 @@ textarea:focus {
     width: 600px;
     left: 24px;
     top: 156px;
-    border-radius: 0px;
   }
 
   .info-button {
@@ -862,6 +856,10 @@ textarea:focus {
     color: #fff;
     padding: 10px;
     border: none;
+  }
+
+  .btn-desk:hover {
+    cursor: pointer;
   }
 
   .desktop2 {
