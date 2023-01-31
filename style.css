@@ -3,6 +3,62 @@ body {
   padding: 0;
 }
 
+.menu-bar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  padding: 10px 30px 0 0;
+  background: #3c3a39;
+  mix-blend-mode: normal;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+}
+
+.hidden-menu {
+  display: none;
+}
+
+.menu-bar .close-btn {
+  align-self: flex-end;
+  margin-right: 20px;
+  background: none;
+  color: #67798e;
+  border: none;
+  font-size: 25px;
+}
+
+.menu-bar .menu-mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 50px;
+}
+
+.menu-mobile a {
+  text-decoration: none;
+  color: #fff5e1;
+  top: 8px;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  padding-left: 35px;
+}
+
+.menu-mobile .newline {
+  color: white;
+  height: 1px;
+  width: 90%;
+  margin-right: 500px;
+  align-self: flex-start;
+  margin-top: -15px;
+}
+
 .container {
   width: 100vw;
 }
@@ -10,8 +66,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  height: 50px;
-  padding: 12px 0;
+  padding: 25px 0;
   align-items: center;
   background: #3c3a39;
 }
@@ -39,6 +94,7 @@ nav {
 .humburger {
   margin-right: 24px;
   color: #fff;
+  order: 1;
 }
 
 .humburger:hover {
@@ -50,12 +106,11 @@ nav {
   background-repeat: no-repeat;
   background-position: bottom right;
   background-color: #1c1a19;
-  margin-top: -47px;
-  padding-right: 24px;
+  margin-top: -56px;
+  padding: 0 24px;
 }
 
 .heading1 {
-  height: 124px;
   padding-top: 120px;
   color: #ff6b00;
   font-family: "Crete Round", serif;
@@ -84,6 +139,7 @@ nav {
   color: #fff;
   flex: none;
   order: 2;
+  padding-right: 90px;
 }
 
 ul {
@@ -91,9 +147,8 @@ ul {
 }
 
 .social-icons {
-  display: flex;
+  display: inline-flex;
   justify-content: flex-start;
-  height: 20px;
   text-decoration: none;
   gap: 30px;
   padding-bottom: 130px;
