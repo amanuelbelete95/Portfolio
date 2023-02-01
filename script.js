@@ -82,13 +82,25 @@ const openBtn = document.querySelectorAll('[data-modal-target]');
 const closeModalButtons = document.querySelectorAll('[data-close-button]');
 const overlay = document.querySelector('.overlay');
 
-function openModal(modal) {
+// function openModal(modal) {
+//   if (modal == null) return;
+//   modal.classList.toggle('active');
+//   overlay.classList.toggle('active');
+// }
+
+const openModal = modal => {
   if (modal == null) return;
   modal.classList.toggle('active');
   overlay.classList.toggle('active');
 }
 
-function closeModal(modal) {
+// function closeModal(modal) {
+//   if (modal == null) return;
+//   modal.classList.remove('active');
+//   overlay.classList.remove('active');
+// }
+
+const closeModal = modal => {
   if (modal == null) return;
   modal.classList.remove('active');
   overlay.classList.remove('active');
