@@ -19,10 +19,6 @@ menuItems.forEach((item) => {
   item.addEventListener('click', menuRemover);
 });
 
-
-// const seeProject = document.querySelector('.my-btn');
-// const closeProject = document.querySelector('#close-project');
-
 // pop up
 
 const popWindow = [
@@ -32,24 +28,24 @@ const popWindow = [
     popDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     poplive: 'images/live.png',
     popGitHub: 'images/github.png',
-    popList: ['html','bootstrap','Ruby on rails'],
+    popList: ['html', 'bootstrap', 'Ruby on rails'],
     popLiveLink: 'https://github.com/amanuelbelete95/Portfolio',
-    popGithubLink:'https://amanuelbelete95.github.io/Portfolio/'
+    popGithubLink: 'https://amanuelbelete95.github.io/Portfolio/',
   },
 
   {
-    desktopHeading: "Keeping track of hundreds of components website",
-    popImg: "images/Snapshoot Portfolio.png",
+    desktopHeading: 'Keeping track of hundreds of components website',
+    popImg: 'images/Snapshoot Portfolio.png',
     popDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     poplive: 'images/live.png',
     popGitHub: 'images/github.png',
-    popList: ['html','bootstrap','Ruby on rails'],
+    popList: ['html', 'bootstrap', 'Ruby on rails'],
     popLiveLink: 'https://github.com/amanuelbelete95/Portfolio',
-    popGithubLink:'https://amanuelbelete95.github.io/Portfolio/'
-  }
+    popGithubLink: 'https://amanuelbelete95.github.io/Portfolio/',
+  },
 ];
 
-const popUpWindow =  document.querySelector('.popUp');
+const popUpWindow = document.querySelector('.popUp');
 
 popUpWindow.innerHTML = `<div class="showpop hidepop">
    <div class="pop-header">
@@ -80,57 +76,42 @@ popUpWindow.innerHTML = `<div class="showpop hidepop">
    </div> 
   </div>
     </div>
-`
-// const popupOverlay = document.querySelector('.overlay')
-
-// popupOverlay.innerHTML = `<div id="overlay"></div>
-// `;
+`;
 
 const openBtn = document.querySelectorAll('[data-modal-target]');
 const closeModalButtons = document.querySelectorAll('[data-close-button]');
 const overlay = document.querySelector('.overlay');
 
-openBtn.forEach(button => {
-    button.addEventListener('click', () => {
-        const modal = document.querySelector(button.dataset.modalTarget)
-        openModal(modal)
-        window.scrollTo({top:10, behavior:"smooth"})
-    })
-})
-
-overlay.addEventListener('click', () => {
-    const modals = document.querySelectorAll('.popUp.active')
-    modals.forEach(modal => {
-        closeModal(modal)
-    })
-})
-
-closeModalButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        const modal = button.closest('.popUp')
-        closeModal(modal)
-    })
-})
-
 function openModal(modal) {
-    if (modal == null) return
-    modal.classList.toggle('active')
-    overlay.classList.toggle('active')
+  if (modal == null) return;
+  modal.classList.toggle('active');
+  overlay.classList.toggle('active');
 }
 
 function closeModal(modal) {
-    if (modal == null) return
-    modal.classList.remove('active')
-    overlay.classList.remove('active')
+  if (modal == null) return;
+  modal.classList.remove('active');
+  overlay.classList.remove('active');
 }
 
+openBtn.forEach((button) => {
+  button.addEventListener('click', () => {
+    const modal = document.querySelector(button.dataset.modalTarget);
+    openModal(modal);
+    window.scrollTo({ top: 10, behavior: 'smooth' });
+  });
+});
 
+overlay.addEventListener('click', () => {
+  const modals = document.querySelectorAll('.popUp.active');
+  modals.forEach((modal) => {
+    closeModal(modal);
+  });
+});
 
-
-// seeProject.addEventListener('click', () => {
-//   popWindow.classList.toggle('hidepop');
-// });
-
-// closeProject.addEventListener('click', () => {
-//   popWindow.classList.toggle('hidepop');
-// });
+closeModalButtons.forEach((button) => {
+  button.addEventListener('click', () => {
+    const modal = button.closest('.popUp');
+    closeModal(modal);
+  });
+});
