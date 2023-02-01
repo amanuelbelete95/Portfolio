@@ -81,97 +81,14 @@
           </ul>
         </section>
     </div>
+
+    <div class="popUp" id="popUp">
+    </div>
+    <div class="overlay"></div>
+
     <section class="work-section" id="work">
-      <div class="work">
-        <h1 class="work-title">My Recent Works</h1>
-        <hr class="desktop-hr" />
-
-        <img src="./Images/mytitle image.png" class="work-image" />
-        <h3 class="story-title">Multi-Post Stories</h3>
-        <p class="story-info">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a standard dummy text.
-        </p>
-        <ul class="my-skills">
-          <li>css</li>
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-        <br />
-        <button class="my-btn">See Projects</button>
-      </div>
     </section>
-
     <div class="cards-desktop">
-      <div class="cards desktop1">
-        <button class="btn-desk">See Project</button>
-      </div>
-      <div class="cards desktop2">
-        <h2 class="heading-desk">Data Dashboard Healthcare</h2>
-        <p>
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard
-        </p>
-        <ul>
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-      </div>
-
-      <div class="cards desktop3">
-        <h2 class="heading-desk">Website Protfolio</h2>
-        <p>
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard
-        </p>
-        <ul>
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-      </div>
-
-      <div class="cards desktop4">
-        <h2 class="heading-desk">Profesional Art Printing Data More</h2>
-        <p>
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard
-        </p>
-        <ul>
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-      </div>
-
-      <div class="cards desktop5">
-        <h2 class="heading-desk">Data Dashboard Healthcare</h2>
-        <p>
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard
-        </p>
-        <ul>
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-      </div>
-
-      <div class="cards desktop6">
-        <h2 class="heading-desk">Website Protfolio</h2>
-        <p>
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard
-        </p>
-        <ul>
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-      </div>
     </div>
     <div class="cards-container">
       <div class="cards-content">
@@ -186,7 +103,7 @@
           <li>bootstrap</li>
           <li>Ruby</li>
         </ul>
-        <button class="pro-btn">See Project</button>
+        <button data-modal-target="#popUp" class="pro-btn">See Project</button>
       </div>
 
       <div class="cards-content">
@@ -201,23 +118,7 @@
           <li>bootstrap</li>
           <li>Ruby</li>
         </ul>
-        <button class="pro-btn">See Project</button>
-      </div>
-
-      <div class="cards-content">
-        <h2 class="cards-heading">Profesional Art <br />Printing Data</h2>
-
-        <p class="cards-info">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a standard dummy text.
-        </p>
-        <ul class="cards-list">
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-        <button class="pro-btn">See Project</button>
+        <button data-modal-target="#popUp" class="pro-btn">See Project</button>
       </div>
 
       <div class="cards-content">
@@ -233,7 +134,7 @@
           <li>bootstrap</li>
           <li>Ruby</li>
         </ul>
-        <button class="pro-btn">See Project</button>
+        <button data-modal-target="#popUp" class="pro-btn">See Project</button>
       </div>
 
       <div class="cards-content">
@@ -249,7 +150,7 @@
           <li>bootstrap</li>
           <li>Ruby</li>
         </ul>
-        <button class="pro-btn">See Project</button>
+        <button data-modal-target="#popUp" class="pro-btn">See Project</button>
       </div>
 
       <div class="cards-content">
@@ -265,7 +166,23 @@
           <li>bootstrap</li>
           <li>Ruby</li>
         </ul>
-        <button class="pro-btn">See Project</button>
+        <button data-modal-target="#popUp" class="pro-btn">See Project</button>
+      </div>
+
+      <div class="cards-content">
+        <h2 class="cards-heading">Profesional Art <br />Printing Data</h2>
+
+        <p class="cards-info">
+          A daily selection of privately personalized reads; no accounts or
+          sign-ups required. has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a standard dummy text.
+        </p>
+        <ul class="cards-list">
+          <li>html</li>
+          <li>bootstrap</li>
+          <li>Ruby</li>
+        </ul>
+        <button data-modal-target="#popUp" class="pro-btn">See Project</button>
       </div>
     </div>
     <div class="about-lang-cont">
@@ -444,6 +361,7 @@
       </ul>
       <hr class="border" />
     </div>
+    <script src="cards.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
