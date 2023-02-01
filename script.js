@@ -24,21 +24,21 @@ menuItems.forEach((item) => {
 const popWindow = [
   {
     mobileHeading: 'Multi Post Stories',
-    popImg: 'images/Snapshoot Portfolio.png',
+    popImg: 'Images/Snapshoot Portfolio.png',
     popDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    poplive: 'images/live.png',
-    popGitHub: 'images/github.png',
+    poplive: 'Images/live.png',
+    popGitHub: 'Images/github.png',
     popList: ['html', 'bootstrap', 'Ruby on rails'],
     popLiveLink: 'https://github.com/amanuelbelete95/Portfolio',
     popGithubLink: 'https://amanuelbelete95.github.io/Portfolio/',
   },
-
+   
   {
     desktopHeading: 'Keeping track of hundreds of components website',
-    popImg: 'images/Snapshoot Portfolio.png',
+    popImg: 'Images/Snapshoot Portfolio.png',
     popDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    poplive: 'images/live.png',
-    popGitHub: 'images/github.png',
+    poplive: 'Images/live.png',
+    popGitHub: 'Images/github.png',
     popList: ['html', 'bootstrap', 'Ruby on rails'],
     popLiveLink: 'https://github.com/amanuelbelete95/Portfolio',
     popGithubLink: 'https://amanuelbelete95.github.io/Portfolio/',
