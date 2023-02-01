@@ -32,7 +32,7 @@ const popWindow = [
     popLiveLink: 'https://github.com/amanuelbelete95/Portfolio',
     popGithubLink: 'https://amanuelbelete95.github.io/Portfolio/',
   },
-   
+
   {
     desktopHeading: 'Keeping track of hundreds of components website',
     popImg: 'Images/Snapshoot Portfolio.png',
@@ -88,11 +88,11 @@ const overlay = document.querySelector('.overlay');
 //   overlay.classList.toggle('active');
 // }
 
-const openModal = modal => {
+const openModal = (modal) => {
   if (modal == null) return;
   modal.classList.toggle('active');
   overlay.classList.toggle('active');
-}
+};
 
 // function closeModal(modal) {
 //   if (modal == null) return;
@@ -100,11 +100,11 @@ const openModal = modal => {
 //   overlay.classList.remove('active');
 // }
 
-const closeModal = modal => {
+const closeModal = (modal) => {
   if (modal == null) return;
   modal.classList.remove('active');
   overlay.classList.remove('active');
-}
+};
 
 openBtn.forEach((button) => {
   button.addEventListener('click', () => {
