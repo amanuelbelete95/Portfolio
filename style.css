@@ -594,17 +594,40 @@ textarea:focus {
 .submit {
   color: #fff;
   background: #ff6b00;
-  border: none;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   padding: 12px;
+  border: none;
+  animation-name: vibrate 1s ease-in-out 0.5s;
 }
 
-.my-line {
-  margin-top: 124px;
+@keyframes vibrate {
+  from {
+    font-size: 20px;
+  }
+
+  to {
+    font-size: 16px;
+  }
+}
+
+.submit:hover {
+  cursor: pointer;
+  background-color: #ce7036;
+}
+
+.email-error {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+  margin-left: 5px;
+  padding: 10px 5px;
 }
 
 .my-contacts {
@@ -940,10 +963,13 @@ textarea:focus {
   }
 
   .mobile-contact {
-    display: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
   }
 
-  .desktop-contact {
+  .list-container input[type="text"] .desktop-contact {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -956,6 +982,8 @@ textarea:focus {
   }
 
   .btn-class {
-    margin-left: -474px;
+    display: flex;
+    align-items: center;
+    margin-left: -418px;
   }
 }
