@@ -19,16 +19,14 @@ myForm.addEventListener('submit', (event) => {
   }
 });
 
-function validateForm(){
-  if(email.value.match(/[A-Z]/g)) {
-  errorMessage.innerHTML = "Please use lowercase letters for the email fields."
-  errorMessage.style.display = 'block';
-  setTimeout(() => {
-    errorMessage.style.display = 'none'
-    
-  }, 3000);
-}
+function validateForm() {
+  if (email.value.match(/[A-Z]/g)) {
+    errorMessage.innerHTML = 'Please use lowercase letters for the email fields.';
+    errorMessage.style.display = 'block';
+    setTimeout(() => {
+      errorMessage.style.display = 'none';
+    }, 3000);
+  }
 }
 
 submitBtn.addEventListener('click', validateForm);
-

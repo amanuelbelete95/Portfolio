@@ -605,12 +605,13 @@ textarea:focus {
 }
 
 @keyframes vibrate {
-	from {
-		font-size: 20px;
-	}
-	to{
-	  	font-size: 16px;
-	}
+  from {
+    font-size: 20px;
+  }
+
+  to {
+    font-size: 16px;
+  }
 }
 
 .submit:hover {
@@ -628,10 +629,6 @@ textarea:focus {
   margin-left: 5px;
   padding: 10px 5px;
 }
-
-/* .my-line {
-  margin-top: 124px;
-} */
 
 .my-contacts {
   display: flex;
