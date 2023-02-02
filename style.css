@@ -601,6 +601,16 @@ textarea:focus {
   line-height: 24px;
   padding: 12px;
   border: none;
+  animation-name: vibrate 1s ease-in-out 0.5s;
+}
+
+@keyframes vibrate {
+	from {
+		font-size: 20px;
+	}
+	to{
+	  	font-size: 16px;
+	}
 }
 
 .submit:hover {
