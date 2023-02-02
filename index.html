@@ -237,61 +237,6 @@
       </div>
     </div>
     <div class="contact-section" id="contact">
-      <div class="desktop-contact">
-        <p class="para-info">
-          I'm always <br />interested in hearing<br />
-          about new projects,<br />
-          so if you'd like to<br />
-          chat please get in touch.
-        </p>
-        <form action="https://formspree.io/f/mbjelylz" method="post" id="form1">
-          <ul class="list-container">
-            <li>
-              <input
-                type="text"
-                name="first-name"
-                placeholder="First name"
-                class="user-info"
-                maxlength="30"
-                required
-              />
-              <input
-                type="text"
-                name="Last-name"
-                placeholder="Last-name"
-                class="user-info"
-                maxlength="30"
-                required
-              />
-            </li>
-            <li>
-              <input
-                type="email"
-                name="email"
-                placeholder="Email address"
-                class="user-info"
-                required
-              />
-            </li>
-            <li>
-              <textarea
-                name="text"
-                id="text"
-                cols="30"
-                rows="10"
-                placeholder="Enter text here"
-                maxlength="500"
-                required
-              >
-                 Hello Mariane. I would like to get in touch with you...</textarea
-              >
-            </li>
-            <div class="btn-class">
-              <button class="submit" type="submit">Get in touch</button>
-            </div>
-          </ul>
-        </form>
-      </div>
       <div class="mobile-contact">
         <p class="para-info">
           I'm always <br />interested in hearing<br />
@@ -299,7 +244,7 @@
           so if you'd like to<br />
           chat please get in touch.
         </p>
-        <form action="https://formspree.io/f/mbjelylz" method="post" id="form1">
+        <form action="https://formspree.io/f/mbjelylz" method="post" id="form1"> 
           <ul class="list-container">
             <li>
               <input
@@ -315,6 +260,7 @@
               <input
                 type="email"
                 name="email"
+                id="email"
                 placeholder="Email address"
                 class="user-info"
                 required
@@ -333,6 +279,7 @@
             </li>
             <div class="btn-class">
               <button class="submit" type="submit">Get in touch</button>
+              <span class="email-error" aria-live="polite"></span>
             </div>
           </ul>
         </form>
@@ -361,6 +308,7 @@
       </ul>
       <hr class="border" />
     </div>
+    <script src="contact.js"></script>
     <script src="cards.js"></script>
     <script src="script.js"></script>
   </body>
