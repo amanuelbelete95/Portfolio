@@ -2,6 +2,9 @@ const myForm = document.getElementById('form1');
 const email = document.getElementById('email');
 const errorMessage = document.querySelector('.email-error');
 const submitBtn = document.querySelector('.submit');
+const fullName = document.querySelector('#name');
+const textArea = document.querySelector('#text-area');
+const data = {};
 
 myForm.addEventListener('submit', (event) => {
   if (email.value.match(/[A-Z]/g)) {
@@ -27,6 +30,12 @@ function validateForm() {
       errorMessage.style.display = 'none';
     }, 3000);
   }
+  data.name = fullName.value;
+  data.email = email.value;
+  data.message = textArea.value;
+   const dataString = JSON.stringify(data);
+   localStorage.setItem('data', dataString);
+  
 }
 
 submitBtn.addEventListener('click', validateForm);
