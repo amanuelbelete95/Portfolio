@@ -6,16 +6,6 @@ const fullName = document.querySelector('#name');
 const textArea = document.querySelector('#text-area');
 const data = {};
 
-// const getLocalData = () => {
-//   let myData;
-//   if (localStorage.getItem('data')) {
-//     myData = JSON.parse(localStorage.getItem('data'));
-//     fullName.value = myData.name;
-//     email.value = myData.email;
-//     textArea.value = myData.message;
-//   }
-// };
-
 window.onload = () => {
   let myData;
   if (localStorage.getItem('data')) {
