@@ -6,6 +6,20 @@ const fullName = document.querySelector('#name');
 const textArea = document.querySelector('#text-area');
 const data = {};
 
+const getLocalData = (even) => {
+ let myData; 
+ if(!!localStorage.getItem('data')) {
+  myData = JSON.parse(localStorage.getItem('data'));
+  fullName.value = myData.name;
+  email.value = myData.email;
+  textArea.value = myData.message;
+  }
+};
+
+fullName.addEventListener('click', getLocalData);
+email.addEventListener('click', getLocalData);
+textArea.addEventListener('click', getLocalData);
+
 myForm.addEventListener('submit', (event) => {
   if (email.value.match(/[A-Z]/g)) {
     event.preventDefault();
@@ -33,9 +47,8 @@ function validateForm() {
   data.name = fullName.value;
   data.email = email.value;
   data.message = textArea.value;
-   const dataString = JSON.stringify(data);
-   localStorage.setItem('data', dataString);
-  
+  const dataString = JSON.stringify(data);
+  localStorage.setItem('data', dataString);  
 }
 
 submitBtn.addEventListener('click', validateForm);
